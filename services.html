@@ -17,7 +17,7 @@
 			<div class="row">				
 				<h1>Welcome to My Webpage!</h1>
 			</div>
-			<div class="row">			
+			<div class="row" id="mynav">			
 				<nav class="top-bar" data-topbar role="navigation">
 					<section class="top-bar-section">
 						<ul class="left">
@@ -27,7 +27,7 @@
 							<li>
 								<a href="aboutMe.html">About Me</a>
 							</li>
-							<li class="has-dropdown active">
+							<li class="has-dropdown">
 								<a href="project.html">Projects</a>
 								<ul class="dropdown">
 									<li><a href="#">Jumper!</a></li>
@@ -36,8 +36,8 @@
 									<li><a href="projectAndroidHealth.html">Android Health App</a></li>
 								</ul>
 							</li>
-							<li class="has-dropdown">
-								<a href="services.html">Services</a>
+							<li class="has-dropdown active">
+								<a href="#">Services</a>
 								<ul class="dropdown">
 									<li><a href="#">First Item</a></li>
 									<li><a href="#">Second Item</a></li>
@@ -55,44 +55,11 @@
 			</div>
 		</div>	
 	</div>
-	<div class="row">	
-		<div class="large-12 columns large-offset-1">
-		<div class="row">
-			<div class="large-3 columns">
-				<img src="assets/androidHealthThumb.png">
-			</div>
-			<div class="large-9 columns">
-				<h2>Android Health App</h2>
-			</div>
-		</div>
-			<br></br>
-			<ul class="clearing-thumbs" data-clearing>
-				<li><a href="assets/androidHealth01.png"><img src="assets/androidHealth01.png" height="300" width="200"></a></li>
-				<li><a href="assets/androidHealth02.png"><img src="assets/androidHealth02.png" height="300" width="200"></a></li>
-				<li><a href="assets/androidHealth03.png"><img src="assets/androidHealth03.png" height="300" width="200"></a></li>
-				<li><a href="assets/androidHealth04.png"><img src="assets/androidHealth04.png" height="300" width="200"></a></li>
-			</ul>
-		</div>
-	</div>	
 	<div class="row">
 		<article class="large-12 columns large-offset-1">
-			<h2>Description</h2>
+			<h2>Hello!</h2>
 			<p>
-				This app was developed for the COMP304 course (Wireless Programming). It allowed users to enter in vital data such as heart-rate, blood pressure, etc... and send these inputs to an web service.
-				<br></br>
-				Some features of this app include
-				<ul>
-				<li><strong>User Login: </strong>login screen can take both patient and nurse login
-				</li>
-				<li><strong>Vital Sign: </strong>allow the input of vital signs by a nurse that will be sent to an external database 
-				</li>
-				<li><strong>Watch Videos: </strong>motivational video to promote patients to exercise more
-				</li>
-				<li><strong>Signs and Symptoms Checklist: </strong>check certain symptoms and receive possible illnesses
-				</li>
-				<li><strong>Send and Receive Health Text: </strong>allows Nurses and Patients to send and receive texts of health related issues
-				</li>
-				</ul>
+				This website contains information about me. Click on the items in the nav bar to learn more about me!
 			</p>
 		</article>
 	</div>
@@ -113,7 +80,6 @@
 	</div>
 	<script src="scripts/libs/jquery.js"></script>
 	<script src="scripts/libs/foundation.min.js"></script>
-	<script src="scripts/libs/foundation.clearing.js"></script>
 	<script>$(document).foundation()</script>
 	</body>
 </html>
