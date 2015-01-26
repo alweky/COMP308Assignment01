@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Kevin Sau Yeung Kam: About Me</title>
+		<title>Kevin Sau Yeung Kam</title>
 		<link rel="stylesheet" href="css/foundation.min.css" />		
 		<link rel="stylesheet" href="css/normalize.css" />		
-		<link rel="stylesheet" href="css/app.css" />		
-		<script src="js/vendor/modernizr.js"></script>
+		<link rel="stylesheet" href="css/app.css" />
+		<script src="scripts/libs/modernizr.js"></script>
 	</head>
 	<body>
 	<div class="row">
-		<div class="large-2 columns">
+		<div class="large-2 small-2 columns">
 			<img src="assets/logo.png" alt="" />
 		</div>
 		<div class="large-10 columns">	
@@ -24,10 +24,10 @@
 							<li>
 								<a href="index.html">Home Page</a>
 							</li>
-							<li class="active">
+							<li>
 								<a href="aboutMe.html">About Me</a>
 							</li>
-							<li class="has-dropdown">
+							<li class="has-dropdown active">
 								<a href="project.html">Projects</a>
 								<ul class="dropdown">
 									<li><a href="projectJumper.html">Jumper!</a></li>
@@ -56,30 +56,42 @@
 			</div>
 		</div>	
 	</div>
-	<div class="row">
-		<article class="large-3 columns">
-			<img src="assets/me.jpg" alt="" />
-		</article>
-		<aside class="large-9 columns">
-			<p>
-				I am currently a student at Centennial College studying Software Engineering. I will be graduating at the end of the semester.
-				Prior to coming to Centennial College, I had attended the University of Toronto where I had studied Astronomy and Actuarial Science,
-				and obtained my Bachelors of Science.
+	<div class="row">	
+		<div class="large-12 columns large-offset-1">
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="assets/AdvancedSpaceWarsThumb.png">
+			</div>
+			<div class="large-9 columns">
+				<h2>Advanced Space Wars! <a href="#">Play Here!</a></h2>
+			</div>
+		</div>
 			<br></br>
-				Some of my hobbies include playing Video Games. Currently I play Starcraft 2 and am a Platinum Zerg (^_^) and I occasionally play
-				some piano (currently working on Chopin Op. 25 No. 12). I also enjoy watching documentaries on science, society and history.
-			</p>
-			<blockquote>The problem, often not discovered until late in life, is that when you look for things in life like love, meaning, motivation, it implies they are sitting behind a tree or under a rock.
-			The most successful people in life recognize, that in life they create their own love, they manufacture their own meaning, they generate their own motivation.
-			For me, I am driven by two main philosophies, know more today about the world than I knew yesterday. And lessen the suffering of others. You'd be surprised how far that gets you.<cite>Neil deGrasse Tyson</cite></blockquote>
-		</aside>
-	</div>
-	<br></br>
+			<ul class="clearing-thumbs" data-clearing>
+				<li><a href="assets/advancedSpaceWars01.png"><img src="assets/advancedSpaceWars01.png" height="300" width="200"></a></li>
+				<li><a href="assets/advancedSpaceWars02.png"><img src="assets/advancedSpaceWars02.png" height="300" width="200"></a></li>
+				<li><a href="assets/advancedSpaceWars03.png"><img src="assets/advancedSpaceWars03.png" height="300" width="200"></a></li>
+				<li><a href="assets/advancedSpaceWars03.png"><img src="assets/advancedSpaceWars04.png" height="300" width="200"></a></li>
+			</ul>
+		</div>
+	</div>	
 	<div class="row">
-		<article class="large-12 large-offset-1 columns">
-			<h2>My CV</h2>
+		<article class="large-12 columns large-offset-1">
+			<h2>Description</h2>
 			<p>
-				This website contains information about me. Click on the items in the nav bar to learn more about me!
+				This HTML5 game was developed for the COMP397 course (Web Game Programming). This is space shooter game based on the box2d engine where players take control of a ship and use it too destroy other enemies!
+				<br></br>
+				Some features of this Game include
+				<ul>
+				<li><strong>Realistic Physics!: </strong>game based on Box2d engine
+				</li>
+				<li><strong>Lasers: </strong>PEW PEW!
+				</li>
+				<li><strong>Torpedoes: </strong>POW POW!
+				</li>
+				<li><strong>Debris: </strong>Destroy your enemies and watch their ships parts scatter across space
+				</li>
+				</ul>
 			</p>
 		</article>
 	</div>
@@ -100,6 +112,7 @@
 	</div>
 	<script src="scripts/libs/jquery.js"></script>
 	<script src="scripts/libs/foundation.min.js"></script>
+	<script src="scripts/libs/foundation.clearing.js"></script>
 	<script>$(document).foundation()</script>
 	</body>
 </html>
