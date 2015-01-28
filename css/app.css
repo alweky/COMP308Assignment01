@@ -13,10 +13,26 @@ hr {
     border-width: 5px;
 } 
 
-#bottom {
+table {
+
+}
+
+#bottom , #myImage{
 	background:#cccccc;
 	border: 2px;
 	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#projectLogo{
+	border: 2px solid;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.button{
+	box-shadow: 10px 10px 5px #888888;
+	background: #730000;
 }
 
 .top-bar
@@ -33,9 +49,5 @@ hr {
 .top-bar-section ul li.active > a { 
 	background: #ffffff !important;
 	color: black !important;
-	opacity: 0.6;
-}
-
-.top-bar-section ul li.dropdown > a { 
-	opacity: 0.6;
+	opacity: .5;
 }
