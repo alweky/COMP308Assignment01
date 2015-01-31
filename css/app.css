@@ -14,7 +14,9 @@ hr {
 } 
 
 table {
-	opacity: .8;
+	background: transparent; 
+	border-color: transparent;
+	border-radius: 25px;
 }
 
 #bottom , #myImage{
@@ -51,3 +53,14 @@ table {
 	color: black !important;
 	opacity: .5;
 }
+
+.breadcrumbs{
+	background: transparent; 
+	border-color: transparent;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.breadcrumbs ul li>a{
+	color: black;
+}	
